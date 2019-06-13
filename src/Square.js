@@ -23,4 +23,3 @@ class Square extends React.Component{
         );//ici on reprend la valeur {this.props.valeur}
     }
 }
-export default Square;

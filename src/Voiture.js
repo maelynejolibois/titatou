@@ -14,12 +14,12 @@ constructor(){
 
     //initialisation avec STATE
     //this.state={color:"rouge"};
+    this.state={color:"rouge",brand:"Peugeot", owner:"None",id:"WWWW"}
 }
 
 render(){
     //return <h2>Coucou, je suis la meilleure voiture du monde, et ma couleur est {this.state.color}</h2>
-    return <h2>Coucou, je suis la meilleure voiture du monde, et ma couleur est {this.state.color}
-    {this.props.color},appartenant à {this.props.owner} et de plaque {this.props.id}</h2>
+    return <h2>Coucou, je suis la meilleure voiture {this.props.brand}, de couleur {this.state.color},appartenant à {this.props.owner} et de plaque {this.props.id}</h2>
 }
 }
 
